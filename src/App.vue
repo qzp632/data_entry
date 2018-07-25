@@ -6,7 +6,12 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  created() {
+    fetch('api/list').then((res) => {
+      console.log(res)
+    })
+  }
 }
 </script>
 
