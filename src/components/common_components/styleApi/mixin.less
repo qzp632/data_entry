@@ -1,0 +1,19 @@
+.w(@width) {
+  width:@width 
+}
+.h(@height) {
+  height:@height 
+}
+.font-color(@color) {
+  color: @color
+}
+.bg-color(@bg_color) {
+  background: @bg_color
+}
+.whfbc(@width,@height,@color,@bg_color) {
+  .w(@width);
+  .h(@height);
+  .font-color(@color);
+  .bg-color(@bg_color);
+}
+
